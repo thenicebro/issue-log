@@ -12,7 +12,8 @@
 | -q                  | not show the process of compressing.                                                                 |
 | -r                  | recursion.                                                                                           |
 | -S                  | compress directory including conceal files.                                                          |
-    
+| -O                  | specify a character encoding for DOS, Windows and OS/2 archives                                      |
+
 **common use:** 
 
 `$ zip -r -q zip-name $HOME/[your directory]` 
@@ -22,6 +23,8 @@
 `$ unzip zip-packages` unzip all files without directory (not recommend).
 
 `$ unzip zip-packages -d my-dirctory` unzip all files into a directory named my-directory.
+
+`$ unzip zip-packages -O GBK zip-name` specify the GBK encoding to extract, the default encoding is utf-8.
 
 ### unrar and rar
 
